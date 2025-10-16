@@ -1,7 +1,7 @@
 #ifndef INTERFAZ_H_INCLUDED
 #define INTERFAZ_H_INCLUDED
 #include <stdio.h>
-#include "fecha.c"
+#include "fecha.h"
 
 int     solicitar_region(const char*,const int*);
 void    solicitar_fecha(Fecha*,const int,const int);
